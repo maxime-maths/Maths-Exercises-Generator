@@ -1,24 +1,29 @@
-# 🧮 Générateur de feuilles d'exercices (Mathématiques)
+# Générateur de feuilles d'exercices de mathématiques
 
-Un script Python conçu pour générer automatiquement des feuilles d'exercices de mathématiques (et leurs corrigés détaillés). 
+Ce projet consiste en un script Python destiné à la génération automatisée de feuilles d'exercices de mathématiques, systématiquement accompagnées de leurs corrigés détaillés.
 
-J'ai développé cet outil pour m'accompagner dans la préparation de mes cours particuliers. Il permet de créer des séries d'entraînement uniques à l'infini, avec un focus particulier sur la rigueur des notations mathématiques exigées au lycée et en classe préparatoire.
+Initialement développé pour optimiser la préparation de cours particuliers, cet outil permet de créer un nombre illimité de séries d'entraînement uniques. L'architecture de l'outil met l'accent sur la rigueur des notations mathématiques, afin de répondre aux standards d'exigence du lycée et des classes préparatoires aux grandes écoles (CPGE).
 
-## 🎯 Niveau ciblé
-- **Classe de Première (Spécialité Mathématiques) :** Entraînement standard sur le cœur du programme.
-- **Classe de Terminale :** Feuille de "calculs réflexes" et remise à niveau.
+## Niveau visé
 
-## 🌟 Fonctionnalités actuelles
-- **Équations du second degré :** Génération d'équations avec des racines entières pour privilégier la compréhension de la méthode plutôt que le calcul calculatoire lourd.
-- **Dérivation :** Génération de fonctions polynomiales aléatoires et calcul formel de leurs dérivées.
-- **Rigueur mathématique :** Utilisation systématique des quantificateurs ($\forall x \in \mathbb{R}$) et des ensembles de solutions ($S = \{...\}$).
-- **Résolution exacte :** Les calculs sont effectués de manière exacte grâce à la bibliothèque de calcul formel `SymPy`.
-- **Export LaTeX :** Génération d'un fichier `.tex` complet, prêt à être compilé en PDF (idéal pour un rendu professionnel de type "sujet de concours").
+* **Classe de Première (Spécialité Mathématiques) :** Entraînement standard portant sur les notions fondamentales du programme.
+* **Classe de Terminale :** Création de fiches de « calculs réflexes » et de supports de remise à niveau.
 
-## 🛠️ Prérequis et Installation
+## Fonctionnalités principales
 
-Vous devez avoir Python installé sur votre machine, ainsi que la bibliothèque `SymPy`.
+* **Équations du second degré :** Génération d'équations admettant des racines entières. Cette approche privilégie l'assimilation de la méthode de résolution et du raisonnement au détriment de la complexité purement arithmétique.
+* **Dérivation :** Génération aléatoire de fonctions polynomiales et réalisation du calcul formel de leurs dérivées associées.
+* **Rigueur des notations :** Implémentation systématique du formalisme mathématique, incluant l'usage des quantificateurs ($\forall x \in \mathbb{R}$) et la notation ensembliste rigoureuse pour les solutions ($S = \{...\}$).
+* **Calcul exact :** Résolution et simplification exactes des expressions mathématiques grâce à l'intégration de la bibliothèque de calcul formel `SymPy`.
+* **Exportation LaTeX :** Génération automatisée d'un fichier `.tex` complet, prêt à être compilé au format PDF. Cette fonctionnalité garantit un rendu typographique de qualité professionnelle, similaire aux sujets de concours officiels.
+
+## Prérequis et installation
+
+L'exécution de ce script nécessite un environnement Python fonctionnel ainsi que l'installation de la bibliothèque de calcul formel `SymPy`.
+
+Pour installer les dépendances nécessaires, exécutez la commande suivante dans votre terminal :
 
 ```bash
-# Installer la dépendance SymPy
 pip install sympy
+
+```
